@@ -20,13 +20,13 @@ function convertTemp(){
     }
     else if(c < 16){
         // console.log('Cold', c)
-        feedback.innerHTML =('Cold', c)
+        feedback.innerHTML =('Cold'+ c)
     }else if(c >= 16 && c < 21){
         // console.log('warm', c)
-        feedback.innerHTML =('warm', c)
+        feedback.innerHTML =('warm'+ c)
     }else{
         // console.log('hot', c)
-        feedback.innerHTML =('hot', c)
+        feedback.innerHTML =('hot'+ c)
     }
     
     // let celsius = (fahrenheits-32)*5/9;
