@@ -31,3 +31,24 @@ if(index < 0){
 
 }
 
+
+
+let img = document.getElementById("image")
+//let img = document.getElementById("image").value
+let current = 0;
+
+function add(){
+    let img = document.getElementById("image").value 
+    Image.push("image")
+}
+
+let pictures = ["images1.png","images2.png","images3.png"]
+
+localStorage.setItem("images",JSON.stringify(pictures));
+//localStorage.getItem(pictures)
+
+
+function nyfunction(){
+    let x = localStorage.getItem("");
+    document.getElementById("").innerHTML = x;
+}
